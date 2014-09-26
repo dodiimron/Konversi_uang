@@ -19,11 +19,11 @@ public class Konversi_uang {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int dolar, euro;
+        double dolar, euro;
         String r =javax.swing.JOptionPane.showInputDialog("Masukkan nilai Rupiah ");
-        int r1 = Double.parseDouble(r); //perintah konversi dari string ke double
-        dolar=r1/3000;
-        euro=r1/3000;
+        double r1 = Double.parseDouble(r); //perintah konversi dari string ke double
+        dolar=r1/12000;
+        euro=r1/15000;
          //code untuk membatasi jumlah angka di belakang koma
         //DecimalFormat formatdata = new DecimalFormat("#.##");
         //dolar = Double.valueOf(formatdata.format(dolar));
